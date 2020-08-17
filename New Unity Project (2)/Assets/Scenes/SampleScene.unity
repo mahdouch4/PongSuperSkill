@@ -278,7 +278,6 @@ GameObject:
   - component: {fileID: 73023615}
   - component: {fileID: 73023618}
   - component: {fileID: 73023619}
-  - component: {fileID: 73023620}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Untagged
@@ -409,21 +408,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d409626d55ef3c5479f87f3eb63cf906, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorerightText: {fileID: 1255972944}
+  scoreleftText: {fileID: 385196957}
   Ballmovespeed: 20
---- !u!114 &73023620
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 73023614}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 751b4463059cf4946b5bee77d58d1876, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scorerightText: {fileID: 0}
-  scoreleftText: {fileID: 0}
 --- !u!1 &131143197
 GameObject:
   m_ObjectHideFlags: 0
